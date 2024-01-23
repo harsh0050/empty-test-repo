@@ -12,8 +12,8 @@ exec("sudo apt update",(error,stdout,stderr)=>{
 // const { initializeApp } = require("firebase/app");
 // const Firestore = require("firebase/firestore");
 
-// const app = express();
-// const port = process.env.PORT || 8000;
+const app = express();
+const port = process.env.PORT || 8000;
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyASjnMpLYCFiCi536P_Ni9Yp70WncRTuaM",
