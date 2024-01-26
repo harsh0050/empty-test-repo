@@ -1,14 +1,14 @@
 const express = require("express");
 const {exec} = require("child_process")
-exec("sudo apt update",(error,stdout,stderr)=>{
-  if(error){
-    console.log(error)
-  }else if(stderr){
-    console.log(stderr)
-  }else{
-    console.log(stdout)
-  }
-})
+// exec("sudo apt update",(error,stdout,stderr)=>{
+//   if(error){
+//     console.log(error)
+//   }else if(stderr){
+//     console.log(stderr)
+//   }else{
+//     console.log(stdout)
+//   }
+// })
 // const { initializeApp } = require("firebase/app");
 // const Firestore = require("firebase/firestore");
 
